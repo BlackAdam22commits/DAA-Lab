@@ -9,11 +9,11 @@
 
 ---
 
-## Introduction
+# Introduction
 
 This repository contains the laboratory assignments completed for the **Design and Analysis of Algorithms (DAA)** course offered at **International Institute of Information Technology (IIIT), Bhubaneswar**.
 
-The assignments focus on implementing fundamental algorithms in **C**, studying their theoretical properties, and experimentally validating their performance through practical implementation. Several programs generate CSV files that are later visualized using **Microsoft Excel**, allowing a comparison between theoretical and empirical results.
+The repository focuses on implementing fundamental algorithms in **C**, analyzing their theoretical complexity, and validating their performance experimentally through generated datasets and graphs.
 
 Each assignment contains:
 
@@ -26,7 +26,7 @@ Each assignment contains:
 
 ---
 
-## Student Information
+# Student Information
 
 | Field | Details |
 |-------|---------|
@@ -40,7 +40,7 @@ Each assignment contains:
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 Design-and-Analysis-of-Algorithms/
@@ -52,6 +52,7 @@ Design-and-Analysis-of-Algorithms/
     ├── Q1/
     │   ├── Q1growth.c
     │   ├── Q1.csv
+    │   ├── Growth.png
     │   └── README.md
     │
     ├── Q2/
@@ -85,9 +86,9 @@ Design-and-Analysis-of-Algorithms/
 
 ---
 
-## Week 1 Assignments
+# Week 1 Assignments
 
-The first laboratory introduces the fundamentals of algorithm analysis through six programming assignments. These assignments cover asymptotic analysis, recursion, searching techniques, brute-force algorithms, randomized simulations, and empirical performance evaluation.
+The first laboratory introduces the fundamentals of algorithm analysis through six programming assignments. These assignments cover asymptotic analysis, recursion, randomized simulation, brute-force methods, searching techniques, and experimental performance evaluation.
 
 | Question | Topic | Source Code | Documentation |
 |----------|-------|-------------|---------------|
@@ -95,61 +96,63 @@ The first laboratory introduces the fundamentals of algorithm analysis through s
 | **Q2** | Fair vs Biased Coin Toss Simulation | [Q2coin toss.c](./WEEK%201/Q2/Q2coin%20toss.c) | [README](./WEEK%201/Q2/README.md) |
 | **Q3** | Bubble Sort Performance Analysis | [Q3bubble sort.c](./WEEK%201/Q3/Q3bubble%20sort.c) | [README](./WEEK%201/Q3/README.md) |
 | **Q4** | Towers of Hanoi | [Q4tower of hanoi.c](./WEEK%201/Q4/Q4tower%20of%20hanoi.c) | [README](./WEEK%201/Q4/README.md) |
-| **Q5** | Partition Point using Binary Search | [Q5Partition Point.c](./WEEK%201/Q5/Q5Partition%20Point.c) | [README](./WEEK%201/Q5/README.md) |
-| **Q6** | Element Uniqueness Problem | [Q6Element Uniqeness.c](./WEEK%201/Q6/Q6Element%20Uniqeness.c) | [README](./WEEK%201/Q6/README.md) |
+| **Q5** | Partition Point | [Q5Partition Point.c](./WEEK%201/Q5/Q5Partition%20Point.c) | [README](./WEEK%201/Q5/README.md) |
+| **Q6** | Element Uniqueness | [Q6Element Uniqeness.c](./WEEK%201/Q6/Q6Element%20Uniqeness.c) | [README](./WEEK%201/Q6/README.md) |
 
 ---
 
-## Assignment Overview
+# Assignment Overview
 
-### Question 1 – Growth Order of Functions
+## Question 1 – Growth Order of Functions
 
-Study and compare the asymptotic growth of different mathematical functions by arranging them according to their growth rates for sufficiently large values of **n**. The computed values are stored in a CSV file and plotted using Microsoft Excel.
+- Compare the asymptotic growth of twelve mathematical functions.
+- Arrange them according to increasing order of growth.
+- Generate logarithmic values and visualize the results using **Microsoft Excel**.
+
+## Question 2 – Fair vs Biased Coin Toss Simulation
+
+- Simulate fair and biased coin tosses.
+- Observe convergence of experimental probability toward theoretical probability.
+- Demonstrate the **Law of Large Numbers**.
+
+## Question 3 – Bubble Sort Performance Analysis
+
+- Compare Standard Bubble Sort and Optimized Bubble Sort.
+- Count the number of comparisons.
+- Analyze performance for increasing input sizes.
+
+## Question 4 – Towers of Hanoi
+
+- Implement the recursive Towers of Hanoi algorithm.
+- Verify the recurrence relation.
+- Plot the exponential growth of the number of moves.
+
+## Question 5 – Find the Partition Point
+
+- Compare Linear Search and Binary Search.
+- Locate the first occurrence of **1** in an array of **0s followed by 1s**.
+- Analyze the difference in running time.
+
+## Question 6 – Element Uniqueness
+
+- Determine whether all elements of an array are unique.
+- Implement the brute-force solution.
+- Analyze its quadratic time complexity.
 
 ---
 
-### Question 2 – Fair vs Biased Coin Toss Simulation
-
-Simulate fair and biased coin tosses for a large number of trials. Observe how the experimental probabilities converge to their theoretical values and verify the **Law of Large Numbers**.
-
----
-
-### Question 3 – Bubble Sort Performance Analysis
-
-Implement both the Standard Bubble Sort and the Optimized Bubble Sort. Compare their performances by counting the number of element comparisons for arrays of different sizes.
-
----
-
-### Question 4 – Towers of Hanoi
-
-Implement the recursive Towers of Hanoi algorithm. Count the number of moves required for different numbers of disks and verify the recurrence relation.
-
----
-
-### Question 5 – Find the Partition Point
-
-Given an array consisting of consecutive **0s** followed by **1s**, determine the first occurrence of **1** using both Linear Search and Binary Search, and compare their efficiencies.
-
----
-
-### Question 6 – Element Uniqueness
-
-Determine whether all elements in an array are unique using the brute-force approach and analyze its computational complexity.
-
----
-
-## Experimental Results
+# Experimental Results
 
 | Question | CSV Output | Graph |
 |----------|------------|-------|
-| **Q1** | [Q1.csv](./WEEK%201/Q1/Q1.csv) | Generated using Microsoft Excel |
+| **Q1** | [Q1.csv](./WEEK%201/Q1/Q1.csv) | [Growth.png](./WEEK%201/Q1/Growth.png) |
 | **Q2** | [Q2.csv](./WEEK%201/Q2/Q2.csv) | [Fair Coin](./WEEK%201/Q2/Fair%20Coin.png) • [Biased Coin](./WEEK%201/Q2/Biased%20Coin.png) |
 | **Q3** | [comparisons.csv](./WEEK%201/Q3/comparisons.csv) | [comparisons.png](./WEEK%201/Q3/comparisons.png) |
 | **Q4** | [Q4.csv](./WEEK%201/Q4/Q4.csv) | [Exponential Graph](./WEEK%201/Q4/Exponential%20Graph.png) • [Log Graph](./WEEK%201/Q4/Log%20Graph.png) |
 
 ---
 
-## Complexity Summary
+# Complexity Summary
 
 | Question | Algorithm | Time Complexity | Space Complexity |
 |----------|-----------|-----------------|------------------|
@@ -164,61 +167,58 @@ Determine whether all elements in an array are unique using the brute-force appr
 
 ---
 
-## Concepts Covered
+# Topics Covered
 
-### Algorithm Analysis
+## Algorithm Analysis
 
-- Asymptotic Notation (Big O, Big Ω, Big Θ)
+- Asymptotic Notation
+- Big O, Big Ω and Big Θ
+- Growth of Functions
 - Time Complexity
 - Space Complexity
-- Growth of Functions
-- Experimental Performance Analysis
+- Experimental Analysis
 
-### Algorithms
+## Algorithms
 
 - Bubble Sort
 - Optimized Bubble Sort
 - Binary Search
 - Linear Search
-- Brute Force
-- Recursive Algorithms
 - Towers of Hanoi
+- Brute Force
+- Recursion
 
-### Mathematical Concepts
+## Mathematical Concepts
 
 - Logarithmic Growth
 - Polynomial Growth
 - Exponential Growth
 - Recurrence Relations
 
-### Experimental Concepts
+## Experimental Concepts
 
 - Monte Carlo Simulation
 - Law of Large Numbers
-- CSV Data Generation
+- CSV Generation
 - Graph Plotting using Microsoft Excel
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
 | C Programming Language | Algorithm Implementation |
-| GCC Compiler | Compilation |
-| Microsoft Excel | Data Visualization |
-| CSV | Experimental Data Storage |
+| GCC | Compilation |
+| Microsoft Excel | Graph Plotting |
+| CSV | Data Storage |
 | Git | Version Control |
 | GitHub | Repository Hosting |
 | Visual Studio Code | Code Editor |
 
 ---
 
-## Compilation and Execution
-
-Navigate to the desired question folder.
-
-Example:
+# Compilation and Execution
 
 ```bash
 cd "WEEK 1/Q3"
@@ -228,7 +228,7 @@ gcc "Q3bubble sort.c" -o q3
 ./q3
 ```
 
-Programs using mathematical functions should be compiled using:
+Programs requiring mathematical functions can be compiled as:
 
 ```bash
 gcc filename.c -o output -lm
@@ -236,7 +236,7 @@ gcc filename.c -o output -lm
 
 ---
 
-## Clone the Repository
+# Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/Design-and-Analysis-of-Algorithms.git
@@ -246,16 +246,16 @@ cd Design-and-Analysis-of-Algorithms
 
 ---
 
-## Repository Conventions
+# Repository Conventions
 
-- Each laboratory week has its own directory.
-- Every assignment is organized into a separate folder.
-- Each assignment folder contains the source code, documentation, generated CSV files, and graphs (where applicable).
-- Programs include complexity analysis and experimental observations whenever required.
+- Each laboratory week is organized into a separate folder.
+- Every assignment contains its own source code and documentation.
+- CSV files and graphs are included wherever experimental analysis is performed.
+- Programs include complexity analysis and observations.
 
 ---
 
-## Future Work
+# Future Work
 
 Future laboratory assignments will include:
 
@@ -265,20 +265,18 @@ Future laboratory assignments will include:
 - Divide and Conquer
 - Dynamic Programming
 - Greedy Algorithms
-- Backtracking
 - Graph Algorithms
-- Minimum Spanning Trees
-- Shortest Path Algorithms
+- Backtracking
 
 ---
 
-## License
+# License
 
-This repository is maintained for academic and learning purposes as part of the **Design and Analysis of Algorithms Laboratory** at **IIIT Bhubaneswar**.
+This repository is maintained for academic purposes as part of the **Design and Analysis of Algorithms Laboratory** at **IIIT Bhubaneswar**.
 
 ---
 
-## Author
+# Author
 
 **Ayush Pattanaik**
 

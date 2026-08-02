@@ -92,12 +92,12 @@ The first laboratory introduces the fundamentals of algorithm analysis through s
 
 | Question | Topic | Source Code | Documentation |
 |----------|-------|-------------|---------------|
-| **Q1** | Growth Order of Functions | [Q1growth.c](./WEEK%201/Q1/Q1growth.c) | [README](./WEEK%201/Q1/README.md) |
-| **Q2** | Fair vs Biased Coin Toss Simulation | [Q2coin toss.c](./WEEK%201/Q2/Q2coin%20toss.c) | [README](./WEEK%201/Q2/README.md) |
-| **Q3** | Bubble Sort Performance Analysis | [Q3bubble sort.c](./WEEK%201/Q3/Q3bubble%20sort.c) | [README](./WEEK%201/Q3/README.md) |
-| **Q4** | Towers of Hanoi | [Q4tower of hanoi.c](./WEEK%201/Q4/Q4tower%20of%20hanoi.c) | [README](./WEEK%201/Q4/README.md) |
-| **Q5** | Partition Point | [Q5Partition Point.c](./WEEK%201/Q5/Q5Partition%20Point.c) | [README](./WEEK%201/Q5/README.md) |
-| **Q6** | Element Uniqueness | [Q6Element Uniqeness.c](./WEEK%201/Q6/Q6Element%20Uniqeness.c) | [README](./WEEK%201/Q6/README.md) |
+| **Q1** | Growth Order of Functions | [Q1growth.c](./WEEK%201/Q1/Q1growth.c) | [Readme.md](./WEEK%201/Q1/Readme.md) |
+| **Q2** | Fair vs Biased Coin Toss Simulation | [Q2coin toss.c](./WEEK%201/Q2/Q2coin%20toss.c) | [Q2readme.md](./WEEK%201/Q2/Q2readme.md) |
+| **Q3** | Bubble Sort Performance Analysis | [Q3bubble sort.c](./WEEK%201/Q3/Q3bubble%20sort.c) | [Q3readme.md](./WEEK%201/Q3/Q3readme.md) |
+| **Q4** | Towers of Hanoi | [Q4tower of hanoi.c](./WEEK%201/Q4/Q4tower%20of%20hanoi.c) | [Q4.md](./WEEK%201/Q4/Q4.md) |
+| **Q5** | Partition Point | [Q5Partition Point.c](./WEEK%201/Q5/Q5Partition%20Point.c) | [Q5readme.md](./WEEK%201/Q5/Q5readme.md) |
+| **Q6** | Element Uniqueness | [Q6Element Uniqeness.c](./WEEK%201/Q6/Q6Element%20Uniqeness.c) | [Q6readme.md](./WEEK%201/Q6/Q6readme.md) |
 
 ---
 

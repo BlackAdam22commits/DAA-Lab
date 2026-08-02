@@ -58,7 +58,7 @@ The data generated in **comparisons.csv** was imported into **Microsoft Excel** 
 
 | File | Description |
 |------|-------------|
-| `Performance_analysis_of_bubble_sort.c` | C program implementing both Bubble Sort algorithms |
+| `Q3bubble sort.c` | C program implementing both Bubble Sort algorithms |
 | `comparisons.csv` | CSV file containing the comparison results |
 | `comparisons.png` | Graph generated from the CSV data using Microsoft Excel |
-| `Performance_analysis_of_bubble_sort.md` | Documentation for Week 1 – Question 3 |
+| `Q3readme.md.md` | Documentation for Week 1 – Question 3 |

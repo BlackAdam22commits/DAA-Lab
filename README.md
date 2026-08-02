@@ -97,8 +97,8 @@ Design-and-Analysis-of-Algorithms-Assignments/
 
 | # | Question                 | Description                                                                                                                | File                                        |
 | - | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| 1 | Put them in Order        | Arrange 12 given functions in increasing order of growth for sufficiently large `n`.                                       | [q1_growth_order.c](./WEEK%201/q1_growth_order.c) |
-| 2 | Fair vs Biased Coin      | Simulate a coin toss, verify that P(HEAD) → 0.5, then compare a fair coin against biased ones.                             | [q2_coin_toss.c](./WEEK%201/q2_coin_toss.c) |
+| 1 | Put them in Order        | Arrange 12 given functions in increasing order of growth for sufficiently large `n`.                                       | [Q1growth.c](./WEEK%201/Q1growth.c) |
+| 2 | Fair vs Biased Coin      | Simulate a coin toss, verify that P(HEAD) → 0.5, then compare a fair coin against biased ones.                             | [WEEK 1/Q2co](./WEEK%201/q2_coin_toss.c) |
 | 3 | Bubble Sort Performance  | Compare a bubble sort that stops early once sorted against one that always runs all `n−1` passes, by counting comparisons. | [q3_bubble_sort_performance_analysis.c](./WEEK%201/q3_bubble_sort_performance_analysis.c) |
 | 4 | Towers of Hanoi          | Simulate the puzzle, tabulate the number of moves for `n` discs, and match it against the closed form.                     | [q4_towers_of_hanoi.c](./WEEK%201/q4_towers_of_hanoi.c) |
 | 5 | Find the Partition Point | Given an array of 0s followed by 1s, locate the exact transition index.                                                    | [q5_partition_point.c](./WEEK%201/q5_partition_point.c) |

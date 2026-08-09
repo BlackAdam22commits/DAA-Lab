@@ -14,27 +14,28 @@ This directory contains the implementations and experimental analysis for **DAA 
 ```text
 WEEK 2/
 │
-├── Dictionaryops.md
-├── Q1Dictionary.c
-├── ResultQ1.csv
-├── deletegrowth.png
-├── insertgrowth.png
-├── maxgrowth.png
-├── searchgrowth.png
+├── Q1/
+│   ├── Dictionaryops.md
+│   ├── Q1Dictionary.c
+│   ├── ResultQ1.csv
+│   ├── deletegrowth.png
+│   ├── insertgrowth.png
+│   ├── maxgrowth.png
+│   └── searchgrowth.png
 │
 ├── Q2/
 │   ├── Q2.md
-│   ├── Q2Mergesortvsmodifiedmerge.c
+│   ├── Q2Mergesortvsmodifiedmergesort.c
 │   ├── Q2plot.png
 │   └── Q2timings.csv
 │
 ├── Q3/
+│   ├── Q3.md
 │   ├── Q3Mergingksortedarrays.c
 │   ├── Q3plot.png
-│   ├── Q3timings.csv
-│   └── Q3.md
+│   └── Q3timings.csv
 │
-└── README.md
+└── WEEK2README.md
 ```
 
 ---
@@ -68,13 +69,13 @@ The C implementation experimentally measures the operations for different input 
 
 | File             | Description                               |
 | ---------------- | ------------------------------------------ |
-| [`Dictionaryops.md`](Dictionaryops.md) | Write-up / notes on dictionary operations |
-| [`Q1Dictionary.c`](Q1Dictionary.c)     | C implementation of dictionary operations |
-| [`ResultQ1.csv`](ResultQ1.csv)         | Experimental results                      |
-| [`deletegrowth.png`](deletegrowth.png) | Order-of-growth graph — Delete            |
-| [`insertgrowth.png`](insertgrowth.png) | Order-of-growth graph — Insert            |
-| [`maxgrowth.png`](maxgrowth.png)       | Order-of-growth graph — Maximum           |
-| [`searchgrowth.png`](searchgrowth.png) | Order-of-growth graph — Search            |
+| [`Dictionaryops.md`](Q1/Dictionaryops.md) | Write-up / notes on dictionary operations |
+| [`Q1Dictionary.c`](Q1/Q1Dictionary.c)     | C implementation of dictionary operations |
+| [`ResultQ1.csv`](Q1/ResultQ1.csv)         | Experimental results                      |
+| [`deletegrowth.png`](Q1/deletegrowth.png) | Order-of-growth graph — Delete            |
+| [`insertgrowth.png`](Q1/insertgrowth.png) | Order-of-growth graph — Insert            |
+| [`maxgrowth.png`](Q1/maxgrowth.png)       | Order-of-growth graph — Maximum           |
+| [`searchgrowth.png`](Q1/searchgrowth.png) | Order-of-growth graph — Search            |
 
 ---
 
@@ -121,7 +122,7 @@ The program experimentally compares the order of growth of both algorithms.
 | File            | Description                                        |
 | ---------------- | --------------------------------------------------- |
 | [`Q2.md`](Q2/Q2.md) | Write-up / notes for Q2 |
-| [`Q2Mergesortvsmodifiedmerge.c`](Q2/Q2Mergesortvsmodifiedmerge.c) | Implementation of standard and modified Merge Sort |
+| [`Q2Mergesortvsmodifiedmergesort.c`](Q2/Q2Mergesortvsmodifiedmergesort.c) | Implementation of standard and modified Merge Sort |
 | [`Q2plot.png`](Q2/Q2plot.png)     | Comparison of order-of-growth |
 | [`Q2timings.csv`](Q2/Q2timings.csv) | Experimental results |
 
@@ -188,10 +189,10 @@ Pairwise merging provides a better asymptotic running time than sequential mergi
 
 | File               | Description                            |
 | ------------------- | ---------------------------------------- |
+| [`Q3.md`](Q3/Q3.md)               | Write-up / notes for Q3 |
 | [`Q3Mergingksortedarrays.c`](Q3/Q3Mergingksortedarrays.c) | Implementation of both merging methods |
 | [`Q3plot.png`](Q3/Q3plot.png)     | Comparison of order-of-growth |
 | [`Q3timings.csv`](Q3/Q3timings.csv) | Experimental results |
-| [`Q3.md`](Q3/Q3.md)               | Write-up / notes for Q3 |
 
 ---
 

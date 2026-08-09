@@ -14,20 +14,25 @@ This directory contains the implementations and experimental analysis for **DAA 
 ```text
 WEEK 2/
 │
-├── Q1/
-│   ├── Q1Dictionary.c
-│   ├── dictionary.csv
-│   └── dictionary.png
+├── Dictionaryops.md
+├── Q1Dictionary.c
+├── ResultQ1.csv
+├── deletegrowth.png
+├── insertgrowth.png
+├── maxgrowth.png
+├── searchgrowth.png
 │
 ├── Q2/
-│   ├── Q2MergeSort.c
-│   ├── mergesort.csv
-│   └── mergesort.png
+│   ├── Q2.md
+│   ├── Q2Mergesortvsmodifiedmerge.c
+│   ├── Q2plot.png
+│   └── Q2timings.csv
 │
 ├── Q3/
-│   ├── Q3MergeKArrays.c
-│   ├── karrays.csv
-│   └── karrays.png
+│   ├── Q3Mergingksortedarrays.c
+│   ├── Q3plot.png
+│   └── Q3timings.csv
+    └── Q3.md
 │
 └── README.md
 ```

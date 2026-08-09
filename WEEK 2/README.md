@@ -31,8 +31,8 @@ WEEK 2/
 ├── Q3/
 │   ├── Q3Mergingksortedarrays.c
 │   ├── Q3plot.png
-│   └── Q3timings.csv
-    └── Q3.md
+│   ├── Q3timings.csv
+│   └── Q3.md
 │
 └── README.md
 ```
@@ -67,10 +67,14 @@ The C implementation experimentally measures the operations for different input 
 ### Files
 
 | File             | Description                               |
-| ---------------- | ----------------------------------------- |
-| `Q1Dictionary.c` | C implementation of dictionary operations |
-| `dictionary.csv` | Experimental results                      |
-| `dictionary.png` | Order-of-growth graph                     |
+| ---------------- | ------------------------------------------ |
+| [`Dictionaryops.md`](Dictionaryops.md) | Write-up / notes on dictionary operations |
+| [`Q1Dictionary.c`](Q1Dictionary.c)     | C implementation of dictionary operations |
+| [`ResultQ1.csv`](ResultQ1.csv)         | Experimental results                      |
+| [`deletegrowth.png`](deletegrowth.png) | Order-of-growth graph — Delete            |
+| [`insertgrowth.png`](insertgrowth.png) | Order-of-growth graph — Insert            |
+| [`maxgrowth.png`](maxgrowth.png)       | Order-of-growth graph — Maximum           |
+| [`searchgrowth.png`](searchgrowth.png) | Order-of-growth graph — Search            |
 
 ---
 
@@ -115,10 +119,11 @@ The program experimentally compares the order of growth of both algorithms.
 ### Files
 
 | File            | Description                                        |
-| --------------- | -------------------------------------------------- |
-| `Q2MergeSort.c` | Implementation of standard and modified Merge Sort |
-| `mergesort.csv` | Experimental results                               |
-| `mergesort.png` | Comparison of order-of-growth                      |
+| ---------------- | --------------------------------------------------- |
+| [`Q2.md`](Q2/Q2.md) | Write-up / notes for Q2 |
+| [`Q2Mergesortvsmodifiedmerge.c`](Q2/Q2Mergesortvsmodifiedmerge.c) | Implementation of standard and modified Merge Sort |
+| [`Q2plot.png`](Q2/Q2plot.png)     | Comparison of order-of-growth |
+| [`Q2timings.csv`](Q2/Q2timings.csv) | Experimental results |
 
 ---
 
@@ -173,7 +178,7 @@ O(nk log k)
 ### Complexity Comparison
 
 | Method             | Worst-Case Running Time |
-| ------------------ | ----------------------- |
+| ------------------ | ------------------------ |
 | Sequential Merging | `O(nk²)`                |
 | Pairwise Merging   | `O(nk log k)`           |
 
@@ -182,17 +187,18 @@ Pairwise merging provides a better asymptotic running time than sequential mergi
 ### Files
 
 | File               | Description                            |
-| ------------------ | -------------------------------------- |
-| `Q3MergeKArrays.c` | Implementation of both merging methods |
-| `karrays.csv`      | Experimental results                   |
-| `karrays.png`      | Comparison of order-of-growth          |
+| ------------------- | ---------------------------------------- |
+| [`Q3Mergingksortedarrays.c`](Q3/Q3Mergingksortedarrays.c) | Implementation of both merging methods |
+| [`Q3plot.png`](Q3/Q3plot.png)     | Comparison of order-of-growth |
+| [`Q3timings.csv`](Q3/Q3timings.csv) | Experimental results |
+| [`Q3.md`](Q3/Q3.md)               | Write-up / notes for Q3 |
 
 ---
 
 ## Complexity Summary
 
 | Problem | Algorithm             | Worst-Case Complexity                   |
-| ------- | --------------------- | --------------------------------------- |
+| ------- | ---------------------- | ----------------------------------------- |
 | Q1      | Dictionary Operations | Depends on data structure and operation |
 | Q2      | Standard Merge Sort   | `O(n log n)`                            |
 | Q2      | Modified Merge Sort   | `O(n log n)`                            |
